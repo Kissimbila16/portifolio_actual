@@ -1,0 +1,444 @@
+body{
+	  width: 98%;
+    margin-top: 15px;
+	    height: 100%;
+    background:white;
+      color: white;
+     animation-name:loading;
+    animation-duration: 5s;
+      animation-iteration-count: infinite;
+      animation-fill-mode: ease;
+animation-play-state: none;
+ }
+    @keyframes loading{
+      0%{background:black 50%;}
+     50%{  background:gray 50%;}
+     100%{  background:black 90%;}
+    }
+
+  .home{
+  	  height: 300px;
+  	    width:99%;
+  	      border:solid transparent 1px ;
+  	        border-radius: 10px;
+  	        display:flex;
+             background-color:black;
+  	          box-shadow: 3px 3px 3px black;
+  	          } 
+
+  	         .about,.skills,.projectos,.pedido{ 
+             
+               margin-top: 30px;
+               height: 350px; 
+               border-radius: 10px;
+                background-image:linear-gradient(to left,white ,gray); } 
+
+.txt{
+   display: grid;
+    height: 100px;
+      width:45%;
+       margin-top:50px;
+          margin-left: 2%;
+       text-indent: 1%;
+}
+
+.foto{
+  margin-top:0px;
+  height:100%;
+  width: 55%;
+     border-top-right-radius: 10px;
+     border-bottom-right-radius: 10px;
+    background-image:linear-gradient(to left,white ,gray); 
+}
+
+.tt{
+    font-style: bold;
+     font-size: 28px;
+       font-variant: small-caps;
+       width: 90%;
+       height: 45px;
+}
+
+.tt2{
+    font-style: bold;
+     font-size: 11px;
+       width: 80%;
+       height:none;
+}
+
+.tt3{
+    font-style: bold;
+     font-size: 8px;
+       width: 80%;
+           margin-top:-10px;
+}
+
+.bts{
+  display: flex;
+     justify-content: space-between;
+       width: 50%;
+}
+.bt{
+    height:36px;
+      width: 80px;
+         border:solid white 1px;
+        color:white;
+         background-color:#171614;
+}
+.bt1{
+    height:36px;
+      width: 160px;
+         border:solid transparent 1px;
+        color:black;
+}
+          .bt1:active{
+            box-shadow: 4px 4px 4px white;
+            font-size: 16px;
+          }
+          .bt:active{
+            box-shadow: 4px 4px 4px white;
+            font-size: 16px;
+          }
+
+
+
+ .bt1:hover{
+            box-shadow: 3px 3px 3px white;
+          }
+          .bt:hover{
+          box-shadow: 3px 3px 3px white;
+          }
+
+.about{
+ border:solid transparent 2px ;
+   background-image:linear-gradient(to left,white ,gray); 
+     color:white;
+  height:400px;
+}
+
+.bout{
+ margin-left: 5%;
+   background-color:transparent; 
+     color:black;
+       font-size: 14.2px;
+       font-style: bold;
+       margin-top: 50px;
+        width: 95%;
+}
+  .skills{
+    border:solid transparent 2px ;
+   background-image:linear-gradient(to left,white ,gray); 
+   display:grid;
+
+     width: 99%;
+       height:
+
+  }
+
+  .s1,.s2{
+     display:grid;
+     justify-content: space-around;
+       height: 80px;
+       width:99%;
+      
+         margin-top: 20px;
+  }
+
+
+  .linha:active{
+  font-size: 16px;}
+  .linha:hover{
+     color: black;
+    background-image:linear-gradient(to left,#b0b0b0,#171614);
+  }
+    .text1{
+        width: 89%;
+          font-size: 10.5px;
+word-spacing: 2px;
+text-indent: 5px;  }
+.resumo{
+       width: 89%;
+          font-size: 10.5px;
+          text-indent: 5px;
+}
+    .linha{
+        background-color:#171614;
+         height:40px;
+           width:160px;
+             color: white;
+               font-size: 12px;
+                 font-style: bold;
+           border:solid white 1px;
+           border-radius: 5px;
+            margin-top: 20px;
+            margin-left: 1%;
+    }
+    .projectos{
+        height: 350px;
+   display: grid;
+   justify-content: space-around;
+    }
+ .paginas{
+   height: 95%;
+    width:32.3%;
+  background:gray;
+   border:solid transparent 1px;
+   border-radius: 5px;
+     align-items: center;
+  animation-name:load;
+    animation-duration: 5s;
+      animation-iteration-count: infinite;
+      animation-fill-mode: ease;
+ }
+
+
+
+    @keyframes load{
+      0%{
+            background:black 50%;
+      }
+        
+     50%{  background:gray 50%;}
+
+     100%{  background:black 90%;}
+    }
+
+  .paginas:hover{
+       animation-name:slide;
+    animation-duration: 5s;
+      animation-iteration-count: infinite;
+      animation-fill-mode: ease;
+  }
+     @keyframes slide{
+      0%{
+            background:gray 50%;
+      }
+        
+     50%{  background:black 50%;}
+
+     100%{  background:gray 90%;}
+    }
+ .l1,.l2{
+  align-items: center;
+   height:49.5%;
+    width:99%; 
+   display:flex;
+  align-content: stretch;
+  justify-content: space-around;
+   margin-left: 4px;
+    border:solid transparent 1px;
+ }
+ 
+    .contacto{
+       display: grid;
+        justify-content: space-around;
+        width: 99%;
+    }
+    .lista-url{
+       list-style-type: none;
+
+    }
+ 
+.texto1,.texto2,.texto3,.texto4,.texto5{
+  font-size: 12px;
+            font-style: bold;
+              color:white;
+                text-align: center;
+         border:solid gray 1px;
+                     border-radius: 5px;
+                 text-align: center;
+        height: 32px;     width:140px;
+        background-color: black;
+        margin-left:5px;
+          padding-top: 18px;
+    color:black;
+}
+
+.a{
+ 
+      font-variant: small-caps;
+        border:solid black 1px;
+        margin-top: 2px;
+          border-radius:6px;
+     margin-left: 5px;
+        height: 40px;
+          width:140px;
+         background-color: black;
+          color: white;
+
+}
+   .a:hover{
+background-image: linear-gradient(to left ,gray,black);
+  color: red;
+    font-size:15px;
+   }
+   
+        .titulos{
+          font-variant:small-caps;
+          color:white;
+           font-size: 25px;
+           height:27px;
+            weight:99%; 
+        }
+
+        address{
+      
+            text-align: center;
+        }
+            .ola{
+                font-size: 24px;
+            }
+            textarea{
+                height: 100px;
+                width:200px;
+                  border-radius: 5px;
+                  border:solid transparent 2px;
+            }
+               input[type="Email"]{
+height: 32px;
+width: 200px;
+   border:solid white 1px;
+   border-radius: 5px;
+               }
+                 .conf{
+                  margin-top: 5px;
+                  height: 32px;
+width: 210px   ;
+   border:solid white 1px;
+   background-color: black;
+   border-radius: 5px;
+   color: white;
+            font-style: bold;
+            font-size: 13px;
+                 }
+
+                 .conf:hover{
+  background-image: linear-gradient(to left,white,#5E8CA5);
+    color:black;
+}
+
+                   form{
+                 
+   border:none;
+   margin-left: 10px;
+
+     border-radius: 5px;
+background-color: #171614;
+    width: 300px;
+      height:350px;
+                  }
+                   .msg{
+                      font-size:20px;
+                      padding-top: 13px;
+                      color: white;
+                   }
+                   .p2{}
+
+                   .pedido{
+                      width: 99%;
+                      height: 410px
+
+
+                   }
+                   .cv{
+                    width: 99%;
+                    height: 200px;
+                    background-color: black;
+                     margin-top: 30px;
+               border-radius: 10px;
+              display: flex;
+              justify-content: space-around;
+              align-items: center;
+                   }
+                     .cv1{
+                        width:160px;
+                          height:40px;
+                            border:solid white 1px;
+                          
+                          
+                     }
+
+                     .in:hover{
+                        color: black;
+                         font-size: 36px;
+                     }
+                       .in{
+                      
+                         font-size: 36px;
+                     }
+                       .cv1:active{
+                          box-shadow: 3px 3px 3px white;
+                           font-size: 16px;
+                            font-style: bold;
+
+                       }
+
+                       .cv1:hover{
+                         background-image: linear-gradient(to left,gray,black);
+                          color:white;
+                       }
+                     .cv2{
+                        display: flex;
+                        justify-content: space-around;
+                      
+                            width:40%;
+                             height: 90%;
+                               align-items: center;
+                     }
+                       .logo{
+                          background-color: red;
+                            border:solid white 1px;
+                           border-radius: 5px;
+                       }
+
+                       .t2{
+                        margin-left: -135px;
+                       }
+                        .t1{
+                        margin-left: -165px;
+                       }
+.l{
+    width: 200px;
+      height: 36px;
+         border:solid black 1px;
+         text-align: center;
+border-radius: 5px;
+
+}
+
+                      }
+.l{
+    width: 450px;
+      height: 36px;
+         border:solid black 1px;
+         text-align: center;
+border-radius: 5px;
+
+}
+a{
+  color:black;
+}
+ .contacto{ 
+             width: 99%;
+               margin-top: 30px;
+               height: 250px; 
+               border-radius: 10px;
+                background-image:linear-gradient(to left,white ,gray); } 
+
+   .con-top{
+     display:grid;justify-content:space-around;
+     background:trasnparent;width:100%;
+     text-indent:1%;  
+    }
+
+
+.contas{
+   display:flex;
+   width:99%;
+     height: 200px;
+       margin-top: -50px;
+}
+
+   #divi{
+    visibility: hidden;
+   }

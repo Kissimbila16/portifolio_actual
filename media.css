@@ -1,0 +1,160 @@
+
+@media(min-width: 500px){ 
+.lin{
+   display:none;
+
+}
+}
+  
+@media(max-width: 500px){  
+.foto{
+    display:none;
+} 
+.cv{
+  background-image: src('logo.jpg');
+    background-repeat: no-repeat;
+background-position: center;
+}
+
+.text1{
+   width:95%;
+        font-size: 9px;
+           font-style: bold;
+}
+.logo{
+    display: none;
+ }
+   .skills{
+       display:flex;
+       justify-content: space-around;
+   }
+.btns-ln{
+  display:flex;
+  justify-content: space-around;
+  width: 99%;
+}
+  .linha{
+      width:100px;
+        height: 35px;
+  }
+#linha{
+     display: none;
+  }
+
+.txt{
+  width:99%;
+
+}
+  .paginas{
+       width: 49%;
+  }
+.tt{
+    width: 100%;
+      font-size: 25px;
+        height: 60px;
+}
+
+.tt2{
+  
+        margin-top: 25px;
+}
+
+.cv2{
+    display: flex;
+    justify-content: space-between;
+      width: 94%;
+}
+  .cv1{
+     width:130px;
+
+  }
+  form{
+      margin-left:0px;
+        background-color: transparent;
+  }
+  .resumo{
+       font-size: 9px;
+       font-style: bold;
+       width: 99%;
+       text-indent: 5px;
+  }
+
+
+  .s1{
+     display:grid;
+     justify-content: space-around;
+       height: 80px;
+       width:99%;
+      
+         margin-top: 20px;
+  }
+
+
+  .s2{
+     display:grid;
+     justify-content: space-around;
+       height: 80px;
+       width:99%;
+       
+         margin-top: 20px;
+  }
+
+    #pag2{
+      display: none;
+   }
+
+.c1{
+    display: grid;
+
+}
+
+
+.texto1,.texto2,.texto3,.texto4,.texto5{
+  height:35px;
+
+
+}
+   #show,.saiba{
+      display:none;
+
+   }
+
+   #bout{
+height:200px
+   }
+   .contacto{
+       height: 400px;
+   }
+
+.con-top{
+    display: none;
+}
+.lin{
+   display:grid;
+    justify-content: space-around;
+    height:200px;
+    width: 99%;
+ 
+     margin-top: -180px;
+}
+   .l{
+      width: 200px;
+         height:38px;
+     border:solid white 1px;
+        border-radius: 5px;
+           text-align: center;
+   }
+   .ll1{
+      width: 230px;
+         height:38px;
+     border:solid white 1px;
+        border-radius: 5px;
+           text-align: center;
+   }
+
+   .l1,.l2{
+    margin-left: 0px;
+  }
+}
+
+                       
